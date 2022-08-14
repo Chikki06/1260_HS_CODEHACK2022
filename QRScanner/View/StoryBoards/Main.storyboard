@@ -184,10 +184,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emission per year (kg):" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSH-cn-ksf">
-                                <rect key="frame" x="17" y="522" width="342" height="107"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="107" id="kge-8e-wag"/>
-                                </constraints>
+                                <rect key="frame" x="17" y="609" width="342" height="20"/>
                                 <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

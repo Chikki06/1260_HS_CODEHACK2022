@@ -50,7 +50,7 @@ class DetailViewController: UIViewController {
         perMonthLabel.text = String(format: "%0.2f", perDay * 30)
         let overTheYear = String(format: "%0.2f", perDay * 365)
         perYearLabel.text = overTheYear
-        noteLabel.text = String(format: "It takes %d fully grown trees in ideal conditions to purify %@ Kg of CO2 from the environment over a year.", Int((((Double(overTheYear) ?? 0) / 25).rounded())), overTheYear)
+        noteLabel.text = String(format: "It takes %d fully grown trees in ideal conditions to purify %@ Kg of Carbon dioxide from the environment over a year. \n Think about this the next time you plan to drive to a place where you can cycle or walk to.", Int((((Double(overTheYear) ?? 0) / 25).rounded())), overTheYear)
     }
     
     func convertRawStringToJson()-> [String: Any]? {
